@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final-Project</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="responsive-project.css">
+    <link rel="stylesheet" href="flaticon.css">
+</head>
+<body>
+    <header>
+      <div class="header">
+        <div class="header-logo"><img src="logo.png">
+          <div class="header-list">
+            <ul>
+              <li><a href="active">Home</a></li>
+              <li><a href="Tentang">Tentang</a></li>
+              <li><a href="Kontak">Kontak</a></li>
+              <li><a href="FAQ">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h1>Selamat Datang Di E-Tickets</h1>
+      </div>
+      <div class="tombol">
+        <a href="#" class="btn">Beli Tiket!</a>
+        <a href="#" class="btn">Atur Jadwal</a>
+      </div>
+    </header>
+
+      <div class="main">
+        <div class="slide">
+          <div class="slide1"></div>
+          <div class="slide2"></div>
+          <div class="slide3"></div>
+          <div class="slide4"></div>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <div class="tab">
+          <input type="radio" id="tab-1" name="tab-group-1" checked>
+          <label for="tab-1"><span class="flaticon-plane"></span> Pesawat</label>
+    
+          <div class="content">
+            <div class="pencarian">
+              <div class="dari asal">
+                <p>Asal</p>
+                <input list="bandara">
+                <datalist id="bandara">
+                  <option value="Soekarno-Hatta (CGK)">
+                  <option value="Adisucipto (JOG)">
+                </datalist>
+              </div>
+              <div class="ke tujuan">
+                <p>Tujuan</p>
+                <input list="bandara">
+                <datalist id="bandara">
+                  <option value="Soekarno-Hatta (CGK)">
+                  <option value="Adisucipto (JOG)">
+                </datalist>
+              </div>
+            </div>
+            <span class="cari"><span class="flaticon-research"></span> Cari</span>
+          </div>
+        </div>
+    
+        <div class="tab">
+          <input type="radio" id="tab-2" name="tab-group-1">
+          <label for="tab-2"><span class="flaticon-train"></span> Kereta</label>
+    
+          <div class="content">
+            <div class="pencarian">
+              <div class="dari asal">
+                <p>Asal</p>
+                <input list="stasiun">
+                <datalist id="stasiun">
+                  <option value="Jakarta Kota"></option>
+                  <option value="Manggarai"></option>
+                </datalist>
+              </div>
+              <div class="ke tujuan">
+                <p>Tujuan</p>
+                <input list="stasiun">
+                <datalist id="stasiun">
+                  <option value="Jakarta Kota"></option>
+                  <option value="Manggarai"></option>
+                </datalist>
+              </div>
+            </div>
+            <span class="cari"><span class="flaticon-research"></span> Cari</span>
+          </div>
+        </div>
+    
+        <div class="tab">
+          <input type="radio" id="tab-3" name="tab-group-1">
+          <label for="tab-3"><span class="flaticon-bus"></span> Bis</label>
+    
+          <div class="content">
+            <div class="pencarian">
+              <div class="dari asal">
+                <p>Asal</p>
+                <input list="kota">
+                <datalist id="kota">
+                  <option value="Jakarta"></option>
+                  <option value="Surabaya"></option>
+                </datalist>
+              </div>
+              <div class="ke tujuan">
+                <p>Tujuan</p>
+                <input list="kota">
+                <datalist id="kota">
+                  <option value="Jakarta"></option>
+                  <option value="Surabaya"></option>
+                </datalist>
+              </div>
+            </div>
+            <span class="cari"><span class="flaticon-research"></span> Cari</span>
+          </div>
+        </div>
+    
+        <div class="tab">
+          <input type="radio" id="tab-4" name="tab-group-1">
+          <label for="tab-4"><span class="flaticon-ship"></span> Kapal</label>
+    
+          <div class="content">
+            <div class="pencarian">
+              <div class="dari asal">
+                <p>Asal</p>
+                <input list="pelabuhan">
+                <datalist id="pelabuhan">
+                  <option value="Tanjung Priok"></option>
+                  <option value="Teluk Bayur"></option>
+                </datalist>
+              </div>
+              <div class="ke tujuan">
+                <p>Tujuan</p>
+                <input list="pelabuhan">
+                <datalist id="pelabuhan">
+                  <option value="Tanjung Priok"></option>
+                  <option value="Teluk Bayur"></option>
+                </datalist>
+              </div>
+            </div>
+            <span class="cari"><span class="flaticon-research"></span> Cari</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="keunggulan">
+        <h1 style="text-align: center;"> Kenapa harus memilih web ini??</h1>
+        <div class="content-item box">
+            <img src="payment.png" alt="" class="payment">
+            <div class="left">
+                <h2>Pembayaran</h2>
+                <p>Anda bisa melakukan pembayaran menggunakan Credit card, Internet Banking, ATM transfer</p>
+            </div>
+            <div style="clear: right;"></div>
+        </div>
+        <div class="content-item box">
+            <img src="guarantee.png" alt="" class="guaranteed">
+            <div class="right">
+                <h2>Jaminan</h2>
+                <p>Jaminan kenyamanan proses transaksi dan perjalanan. Jika terjadi ketidaknyamanan, maka kami akan
+                    memesankan tiket yang baru tanpa biaya tambahan atau uang anda kembali
+                </p>
+            </div>
+            <div style="clear: left;"></div>
+        </div>
+        <div class="content-item box">
+            <img src="discount.png" alt="" class="discount">
+            <div class="left">
+                <h2>Diskon Spesial</h2>
+                <p>Ada sangat banyak diskon disini sehingga anda tidak perlu khawatir tentang masalah keuangan.
+                    Jalan-jalan ke tempat yang anda inginkan dapat terwujud dengan mudah
+                </p>
+            </div>
+            <div style="clear: right;"></div>
+        </div>
+        <div class="content-item box">
+            <img src="price.png" alt="" class=" price">
+            <div class="right">
+                <h2>Harga yang terjangkau</h2>
+                <p>Kami memberikan harga terbaik untuk anda agar perjalanan anda bisa menghemat banyak</p>
+            </div>
+            <div style="clear: left;"></div>
+        </div>
+        <div class="content-item box">
+            <img src="guest.png" alt="" class=" guest">
+            <div class="left">
+                <h2>Ulasan</h2>
+                <p>Lebih dari 2 milyar orang telah menggunakan layanan ini dan menyatakan sangat puas dengan layanan kami</p>
+            </div>
+            <div style="clear: right;"></div>
+        </div>
+      </div>
+
+      <div class="profil">
+        <h1>Temuilah Team Kami</h1>
+        <div class="anggota">
+          <div class="profil-list box">
+            <img src="Ridho.jpg" alt="">
+            <p>Ridho Satria Hidayat</p>
+            <br>
+            <p>Palembang</p>
+          </div>
+          <div class="profil-list box">
+            <img src="rein.jpg" alt="">
+            <p>Reinhart Wibisono S</p>
+            <br>
+            <p>Makassar</p>
+          </div>
+          <div class="profil-list box">
+            <img src="Rifan.jpg" alt="">
+            <p>Rifan Andika</p>
+            <br>
+            <p>Mentawai</p>
+          </div>
+          <div class="profil-list box">
+            <img src="Purnomo.jpg" alt="">
+            <p>Purnomo Ibrahim</p>
+            <br>
+            <p>Bekasi</p>
+          </div>
+          <div class="profil-list box">
+            <img src="randy.jpg" alt="">
+            <p>Randy A.T</p>
+            <br>
+            <p>Balikpapan</p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-logo"><i class="fab fa-accusoft"></i>
+          <p>E-Tickets</p>
+          <p>© 2020 - Grup H8</p>
+        </div>
+      </footer>
+</body>
+</html>
