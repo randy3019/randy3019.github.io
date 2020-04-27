@@ -1,0 +1,251 @@
+@media (max-width: 1000px){
+    /* Main */
+    .title{
+        text-align: center;
+        width: 80%;
+        padding: 20px auto;
+    }
+    .title h1{
+        font-size: xx-large;
+    }
+    .tombol{
+        text-align: center;
+        top: 65%;
+        font-size: large;
+        width: 60%;
+    }
+
+   
+    /*Extra 2 */
+    .tab label {
+        width: 100px;
+    }
+
+    .dari input {
+        border-radius: 15px;
+        border: none;
+        background: #ffcc5c;
+        width: 200px;
+        height: 35px;
+    }
+
+    .ke input {
+        border-radius: 15px;
+        border: none;
+        background: #ffcc5c;
+        width: 200px;
+        height: 35px;
+    }
+
+    /* Extra */
+    .keunggulan{
+        margin: auto 50px;
+    }
+    .keunggulan h1{
+        font-size:x-large;
+        margin-bottom: 40px;
+    }
+    .content-item{
+        font-size: small;
+        padding: 0;
+    }
+    .payment{
+        float: right;
+        width: 90px;
+        padding-top: 25px;
+        padding-right: 15px;
+    }
+    .guaranteed{
+        float: left;
+        width: 120px;
+        padding-top: 10px;
+    }
+    .discount{
+        float: right;
+        width: 100px;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+    .price{
+        float: left;
+        width: 90px;
+        padding-top: 15px;
+        padding-left: 13px;
+    }
+    .guest{
+        float: right;
+        width: 90px;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+    .right{
+        padding-top: 3px;
+        padding-left: 120px;
+    }
+
+    /*Profil*/
+    .profil{
+        text-align: center;
+        margin: 50px 100px;
+    }
+    
+    .profil-list{
+        width: 22%;
+        margin: 20px 14%;
+        display: flexbox;
+        font-size: 12px;
+    }
+    
+    .profil img{
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer{
+        margin: 0;   
+    }
+    .footer-logo{
+        padding:5px 20px;
+        margin-top: 100%;
+    }
+    .footer-logo p{
+        margin: 0;
+        font-size: large;
+    }
+}
+
+@media (max-width: 670px){
+    /*header*/
+    ul li a{
+        font-size: 6px;
+        border: none;
+    }
+    .header-logo img{
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    
+    /* Main */
+    .title{
+        width: 60%;
+        padding: 20px 30px;
+    }
+    .title h1{
+        font-size: large;
+    }
+    .tombol{
+        top: 65%;
+        font-size: small;
+        width: 100%;
+    }
+    
+    /*Extra 2 */
+    .tab label {
+        width: 50px;
+      }
+      .tab label span{
+        display:flow-root;
+      }
+      .pencarian {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+      .dari {
+        flex: auto;
+      }
+    
+      .ke {
+        flex: auto;
+      }
+    
+      .content {
+        height: 180px;
+        top: 32px;
+      }
+
+    /* Extra */
+    .keunggulan h1{
+        font-size: 90%;
+        margin-bottom: 40px;
+    }
+    .keunggulan{
+        margin: auto 20px;
+    }
+    .content-item{
+        font-size: 60%;
+        padding: 0;
+    }
+    .payment{
+        float: right;
+        width: 70px;
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+    .guaranteed{
+        float: left;
+        width: 100px;
+        padding-top: 10px;
+    }
+    .discount{
+        float: right;
+        width: 80px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .price{
+        float: left;
+        width: 70px;
+        padding-top: 8px;
+        padding-left: 13px;
+    }
+    .guest{
+        float: right;
+        width: 70px;
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+    .right{
+        padding-top: 13px;
+        padding-left: 100px;
+    }
+    .left {
+        padding-top: 13px;
+        padding-left: 25px;
+    }
+
+    /*Profil*/
+    .profil h1{
+        font-size: large;
+    }
+    .profil{
+        text-align: center;
+        margin: 50px 100px;
+    }
+    .profil-list{
+        font-size: small;
+        width: 80%;
+        max-width: 85%;
+        margin: 20px 10%;
+        display: flexbox;
+    }
+    
+    .profil img{
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer{
+        margin: 0;
+    }
+   
+    .footer-logo{
+        padding: 20px 20px;
+        margin-top: 400%;
+    }
+    .footer-logo p{
+        margin: 0;
+        font-size: medium;
+    }
+}
